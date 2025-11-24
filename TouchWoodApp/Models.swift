@@ -22,8 +22,8 @@ struct RitualModel: Identifiable, Hashable {
     
     static let touchWood = RitualModel(
         id: UUID(),
-        name: "Knock on Wood",
-        description: "Tap wood for good luck",
+        name: NSLocalizedString("knock_on_wood", comment: "Knock on wood ritual name"),
+        description: NSLocalizedString("tap_wood_for_good_luck", comment: "Knock on wood description"),
         icon: "tree.fill",
         isCustom: false,
         isFavorite: true,
@@ -33,8 +33,8 @@ struct RitualModel: Identifiable, Hashable {
     
     static let crossFingers = RitualModel(
         id: UUID(),
-        name: "Cross Fingers",
-        description: "Cross fingers for good fortune",
+        name: NSLocalizedString("cross_fingers", comment: "Cross fingers ritual name"),
+        description: NSLocalizedString("cross_fingers_for_good_fortune", comment: "Cross fingers description"),
         icon: "hand.tap.fill",
         isCustom: false,
         isFavorite: false,
@@ -44,8 +44,8 @@ struct RitualModel: Identifiable, Hashable {
     
     static let saltOverShoulder = RitualModel(
         id: UUID(),
-        name: "Salt Over Shoulder",
-        description: "Toss salt to ward off bad luck",
+        name: NSLocalizedString("salt_over_shoulder", comment: "Salt over shoulder ritual name"),
+        description: NSLocalizedString("toss_salt_to_ward_off_bad_luck", comment: "Salt over shoulder description"),
         icon: "drop.fill",
         isCustom: false,
         isFavorite: false,

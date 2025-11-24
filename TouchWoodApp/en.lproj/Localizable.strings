@@ -1,0 +1,462 @@
+/* 
+  Localizable.strings (English)
+
+  TouchWoodApp
+
+  Created by zav on 24/11/2025.
+  
+*/
+
+"knock_on_wood" = "Knock on Wood";
+"cross_fingers" = "Cross Fingers";
+"salt_over_shoulder" = "Salt Over Shoulder";
+
+"tap_wood_for_good_luck" = "Tap wood for good luck";
+"cross_fingers_for_good_fortune" = "Cross fingers for good fortune";
+"toss_salt_to_ward_off_bad_luck" = "Toss salt to ward off bad luck";
+
+"welcome_title" = "Welcome to Touch Wood";
+"welcome_subtitle" = "Your daily companion for good luck rituals";
+"welcome_description" = "Start simple rituals, track your streaks, and bring a little luck to your day.";
+
+"choose_ritual_title" = "Choose Your Ritual";
+"choose_ritual_subtitle" = "Select a ritual to begin with";
+"choose_ritual_description" = "You can always add more rituals later.";
+
+"set_reminder_title" = "Set Daily Reminder";
+"set_reminder_subtitle" = "Never forget your ritual";
+"set_reminder_description" = "We'll remind you at your preferred time.";
+
+"customize_title" = "Customize Experience";
+"customize_subtitle" = "Sound and haptic feedback";
+"customize_description" = "Make each ritual feel just right.";
+
+"continue" = "Continue";
+"get_started" = "Get Started";
+
+"sound_effects" = "Sound Effects";
+"haptic_feedback" = "Haptic Feedback";
+"light" = "Light";
+"medium" = "Medium";
+"heavy" = "Heavy";
+
+"choose_daily_reminder_time" = "Choose your daily reminder time";
+
+"time_for_ritual" = "Time for your ritual!";
+"tap_to_perform" = "Tap to perform %@ and keep your streak going.";
+
+"today_rituals" = "Today's Rituals";
+"streak_days" = "Streak Days";
+"no_rituals_today" = "No rituals today";
+"complete_ritual" = "Complete Ritual";
+
+"note_placeholder" = "Add a note...";
+"how_feel" = "How do you feel?";
+"save" = "Save";
+"cancel" = "Cancel";
+
+"statistics" = "Statistics";
+"total_rituals" = "Total Rituals";
+"current_streak" = "Current Streak";
+"best_streak" = "Best Streak";
+"average_mood" = "Average Mood";
+
+"settings" = "Settings";
+"notifications" = "Notifications";
+"language" = "Language";
+"about" = "About";
+
+// Achievement System
+"achievement_category_streak" = "Streak Achievements";
+"achievement_category_rituals" = "Ritual Achievements";
+"achievement_category_mood" = "Mood Achievements";
+"achievement_category_social" = "Social Achievements";
+"achievement_category_special" = "Special Achievements";
+
+"achievement_first_streak" = "First Steps";
+"achievement_first_streak_desc" = "Complete 3 consecutive days";
+"achievement_week_warrior" = "Week Warrior";
+"achievement_week_warrior_desc" = "Maintain a 7-day streak";
+"achievement_month_master" = "Month Master";
+"achievement_month_master_desc" = "Maintain a 30-day streak";
+"achievement_first_ritual" = "First Ritual";
+"achievement_first_ritual_desc" = "Complete your first ritual";
+"achievement_ritual_collector" = "Ritual Collector";
+"achievement_ritual_collector_desc" = "Complete 50 rituals";
+"achievement_ritual_master" = "Ritual Master";
+"achievement_ritual_master_desc" = "Complete 100 rituals";
+"achievement_positive_thinker" = "Positive Thinker";
+"achievement_positive_thinker_desc" = "Maintain 4.0+ average mood";
+"achievement_perfect_week" = "Perfect Week";
+"achievement_perfect_week_desc" = "Complete rituals every day for a week";
+"achievement_social_butterfly" = "Social Butterfly";
+"achievement_social_butterfly_desc" = "Share 5 achievements";
+"achievement_early_bird" = "Early Bird";
+"achievement_early_bird_desc" = "Complete rituals at 6 AM for 7 days";
+"achievement_creator" = "Creator";
+"achievement_creator_desc" = "Create 3 custom rituals";
+
+"achievement_requirement_streak_days" = "Maintain a %d-day streak";
+"achievement_requirement_total_rituals" = "Complete %d rituals";
+"achievement_requirement_perfect_week" = "Complete rituals every day for a week";
+"achievement_requirement_mood_average" = "Maintain %.1f+ average mood";
+"achievement_requirement_share_count" = "Share %d times";
+"achievement_requirement_custom_rituals" = "Create %d custom rituals";
+"achievement_requirement_consecutive_days" = "Complete rituals for %d consecutive days";
+
+"reward_points" = "%d points";
+"reward_badge" = "%s badge";
+"reward_ritual" = "%s ritual";
+
+// Social Sharing
+"app_name" = "Touch Wood";
+"share_achievement_streak" = "🔥 %d day streak";
+"share_achievement_points" = "⭐ %d points";
+"share_achievement_format" = "%s\n\nJust unlocked: %s\n%s\n%s\n%s";
+"share_streak_format" = "%s\n\n🔥 %d day streak! %d days of rituals completed!";
+"share_ritual_format" = "%s\n\nCompleted %s %s%s";
+"share_challenge_format" = "%s\n\nCompleted challenge: %s (%d/%d)";
+
+"share_rituals" = "Rituals";
+"share_streaks" = "Streaks";
+"share_achievements" = "Achievements";
+"share_challenges" = "Challenges";
+
+// Daily Challenges
+"challenge_type_rituals" = "Rituals";
+"challenge_type_streak" = "Streak";
+"challenge_type_mood" = "Mood";
+"challenge_type_variety" = "Variety";
+"challenge_type_time" = "Time";
+
+"challenge_daily_3_title" = "Daily Devotion";
+"challenge_daily_3_desc" = "Complete 3 rituals today";
+"challenge_daily_5_title" = "Ritual Champion";
+"challenge_daily_5_desc" = "Complete 5 rituals today";
+"challenge_streak_title" = "Streak Keeper";
+"challenge_streak_desc" = "Maintain your daily streak";
+"challenge_mood_title" = "Positive Mind";
+"challenge_mood_desc" = "Maintain 4+ average mood today";
+"challenge_variety_title" = "Variety Master";
+"challenge_variety_desc" = "Complete 2 different rituals";
+"challenge_morning_title" = "Early Bird";
+"challenge_morning_desc" = "Complete a morning ritual (6 AM - 12 PM)";
+"challenge_evening_title" = "Night Owl";
+"challenge_evening_desc" = "Complete an evening ritual (6 PM - 12 AM)";
+
+"challenge_complete_3" = "Complete 3 Rituals";
+"challenge_rituals" = "Complete Rituals";
+"challenge_special_rituals" = "Special Rituals";
+"challenge_streak" = "Maintain Streak";
+"challenge_social" = "Social Activities";
+"challenge_collection" = "Collection";
+
+"leaderboard" = "Leaderboard";
+"global_ranking" = "Global Ranking";
+"friends_ranking" = "Friends Ranking";
+"your_rank" = "Your Rank";
+
+// Custom Ritual Builder
+"builder_title" = "Create Ritual";
+"builder_basic_info" = "Basic Information";
+"builder_ritual_name" = "Ritual Name";
+"builder_ritual_description" = "Description";
+"builder_category_difficulty" = "Category & Difficulty";
+"builder_category" = "Category";
+"builder_difficulty" = "Difficulty";
+"builder_appearance" = "Appearance";
+"builder_icon" = "Icon";
+"builder_color" = "Color";
+"builder_custom_image" = "Custom Image";
+"builder_experience" = "Experience";
+"builder_duration" = "Duration";
+"builder_haptic" = "Haptic Pattern";
+"builder_sharing" = "Sharing";
+"builder_public" = "Make Public";
+"builder_public_desc" = "Others can download and use your ritual";
+"builder_tags" = "Tags";
+"builder_tags_placeholder" = "Enter tags separated by commas";
+
+"category_luck" = "Luck";
+"category_gratitude" = "Gratitude";
+"category_protection" = "Protection";
+"category_prosperity" = "Prosperity";
+"category_health" = "Health";
+"category_love" = "Love";
+"category_wisdom" = "Wisdom";
+"category_custom" = "Custom";
+
+"difficulty_easy" = "Easy";
+"difficulty_medium" = "Medium";
+"difficulty_hard" = "Hard";
+"difficulty_expert" = "Expert";
+
+"haptic_light" = "Light";
+"haptic_medium" = "Medium";
+"haptic_heavy" = "Heavy";
+"haptic_pulse" = "Pulse";
+"haptic_wave" = "Wave";
+"haptic_custom" = "Custom";
+
+"seconds" = "seconds";
+
+"public_ritual_morning_sun" = "Morning Sun";
+"public_ritual_morning_sun_desc" = "Greet the morning sun with gratitude";
+"public_ritual_full_moon" = "Full Moon";
+"public_ritual_full_moon_desc" = "Harness the power of the full moon";
+"public_ritual_lucky_charm" = "Lucky Charm";
+"public_ritual_lucky_charm_desc" = "Create your own lucky charm";
+
+"create" = "Create";
+
+// Mood Insights
+"mood_insights_title" = "Mood Insights";
+"insights_overview" = "Overview";
+"insights_trends" = "Trends";
+"insights_patterns" = "Patterns";
+"insights_recommendations" = "Insights";
+
+"average_mood" = "Average Mood";
+"total_entries" = "Total Entries";
+"entries_recorded" = "Entries recorded";
+"improvement_rate" = "Improvement Rate";
+"points_change" = "Points change";
+"best_time" = "Best Time";
+"most_productive" = "Most productive";
+
+"weekly_trend" = "Weekly Trend";
+"monthly_trend" = "Monthly Trend";
+"ritual_performance" = "Ritual Performance";
+"time_analysis" = "Time of Day Analysis";
+
+"insight_best_time_title" = "Best Time";
+"insight_best_time_desc" = "Your mood is highest during %@";
+"insight_best_ritual_title" = "Most Effective Ritual";
+"insight_best_ritual_desc" = "%@ brings you the most joy";
+"insight_positive_trend_title" = "Positive Trend";
+"insight_positive_trend_desc" = "Your mood has been improving lately!";
+"insight_concern_title" = "Mood Concern";
+"insight_concern_desc" = "Consider focusing on self-care";
+
+"time_morning" = "Morning";
+"time_afternoon" = "Afternoon";
+"time_evening" = "Evening";
+"time_night" = "Night";
+
+"trend_improving" = "Improving";
+"trend_declining" = "Declining";
+"trend_stable" = "Stable";
+
+"priority_high" = "High";
+"priority_medium" = "Medium";
+"priority_low" = "Low";
+
+"action" = "Action";
+
+// Friend System
+"social_title" = "Social";
+"social_feed" = "Feed";
+"friends" = "Friends";
+"search" = "Search";
+"profile" = "Profile";
+
+"friend_requests" = "Friend Requests";
+"my_friends" = "My Friends";
+"accept" = "Accept";
+"decline" = "Decline";
+"add_friend" = "Add Friend";
+
+"activity_friend_request" = "Friend Request";
+"activity_friend_request_desc" = "Sent to %@";
+"activity_new_friend" = "New Friend";
+"activity_new_friend_desc" = "Now friends with %@";
+"activity_ritual_completed" = "Ritual Completed";
+"activity_ritual_desc" = "Completed %@";
+"activity_achievement" = "Achievement Unlocked";
+"activity_achievement_desc" = "%s (%d points)";
+"activity_streak_milestone" = "Streak Milestone";
+"activity_streak_desc" = "%d day streak!";
+"activity_challenge_completed" = "Challenge Completed";
+"activity_challenge_desc" = "%s - %s";
+"activity_custom_ritual" = "Custom Ritual Created";
+"activity_custom_ritual_desc" = "%s (%s category)";
+
+"search_users" = "Search users...";
+"search_placeholder" = "Search for users...";
+"no_results" = "No results found";
+
+"edit_profile" = "Edit Profile";
+"profile_info" = "Profile Information";
+"display_name" = "Display Name";
+"bio" = "Bio";
+"recent_activity" = "Recent Activity";
+"completed_ritual" = "Completed Ritual";
+"unlocked_achievement" = "Unlocked Achievement";
+"streak_milestone" = "Streak Milestone";
+
+"total_points" = "Total Points";
+
+"friendship_pending" = "Pending";
+"friendship_accepted" = "Friends";
+"friendship_declined" = "Declined";
+"friendship_blocked" = "Blocked";
+
+"streak_positive" = "Positive";
+"streak_neutral" = "Neutral";
+"streak_improving" = "Improving";
+
+// Apple Watch & Widgets
+"quick_actions" = "Quick Actions";
+"today_progress" = "Today's Progress";
+"recent_rituals" = "Recent Rituals";
+"daily_challenges" = "Daily Challenges";
+"rituals" = "Rituals";
+"streak" = "Streak";
+"challenges" = "Challenges";
+"today" = "Today";
+"day_streak" = "Day Streak";
+"rituals_today" = "Rituals Today";
+"next" = "Next";
+"tap_to_complete" = "Tap to complete";
+"add_note" = "Add Note (Optional)";
+
+"widget_name" = "Touch Wood";
+"widget_description" = "Track your daily rituals and streaks";
+
+// Seasonal Events
+"seasonal_events" = "Seasonal Events";
+"current_events" = "Current Events";
+"upcoming_events" = "Upcoming Events";
+"past_events" = "Past Events";
+"overview" = "Overview";
+
+"event_type_holiday" = "Holiday";
+"event_type_seasonal" = "Seasonal";
+"event_type_cultural" = "Cultural";
+"event_type_special" = "Special";
+
+"event_chinese_new_year" = "Chinese New Year";
+"event_chinese_new_year_desc" = "Celebrate the Year of the Dragon with special rituals and rewards!";
+"event_spring_equinox" = "Spring Equinox";
+"event_spring_equinox_desc" = "Celebrate new beginnings and growth with spring rituals.";
+"event_halloween" = "Halloween Mysteries";
+"event_halloween_desc" = "Explore mysterious rituals and unlock spooky rewards!";
+"event_christmas" = "Christmas Magic";
+"event_christmas_desc" = "Experience the magic of Christmas with special rituals and rewards!";
+
+"ritual_dragon_dance" = "Dragon Dance";
+"ritual_dragon_dance_desc" = "Perform the traditional dragon dance for prosperity and good fortune.";
+"ritual_red_envelope" = "Red Envelope";
+"ritual_red_envelope_desc" = "Share luck and prosperity with the red envelope ritual.";
+"ritual_lantern_lighting" = "Lantern Lighting";
+"ritual_lantern_lighting_desc" = "Light lanterns to guide good fortune into your life.";
+"ritual_seed_planting" = "Seed Planting";
+"ritual_seed_planting_desc" = "Plant seeds of intention for future growth.";
+"ritual_pumpkin_carving" = "Pumpkin Carving";
+"ritual_pumpkin_carving_desc" = "Carve a pumpkin to ward off evil spirits.";
+"ritual_bell_ringing" = "Bell Ringing";
+"ritual_bell_ringing_desc" = "Ring bells to spread joy and peace.";
+
+"rarity_common" = "Common";
+"rarity_uncommon" = "Uncommon";
+"rarity_rare" = "Rare";
+"rarity_epic" = "Epic";
+"rarity_legendary" = "Legendary";
+
+"effect_mood_boost" = "Mood Boost";
+"effect_streak_bonus" = "Streak Bonus";
+"effect_double_points" = "Double Points";
+"effect_lucky_charm" = "Lucky Charm";
+"effect_protection" = "Protection";
+"effect_prosperity" = "Prosperity";
+
+"effect_mood_boost_desc" = "Boost mood by 30% for 6 hours";
+"effect_streak_bonus_desc" = "Double streak bonus";
+"effect_lucky_charm_desc" = "Increased luck for 12 hours";
+"effect_protection_desc" = "Strong protection for 24 hours";
+"effect_prosperity_desc" = "Double prosperity effects for 24 hours";
+"effect_joy_boost" = "Double joy and happiness";
+"effect_growth_mood" = "Enhanced mood for growth";
+
+"unlock_level" = "Reach level %d";
+"unlock_streak" = "Maintain %d-day streak";
+"unlock_achievement" = "Unlock %s";
+"unlock_event_progress" = "Complete %d%% of event";
+"unlock_social_share" = "Share %d times";
+
+"unlocked" = "Unlocked";
+"usage_limit" = "Uses: %d/%d";
+"ritual_effects" = "Effects";
+"event_details" = "Event Details";
+"event_type" = "Type";
+"event_duration" = "Duration";
+"special_rituals" = "Special Rituals";
+"total_challenges" = "Total Challenges";
+"event_progress" = "Event Progress";
+
+"claim" = "Claim";
+"done" = "Done";
+
+"reward_dragon_master" = "Dragon Master";
+"reward_dragon_master_desc" = "Complete all Chinese New Year challenges";
+"reward_prosperity_title" = "Prosperity Bringer";
+"reward_prosperity_title_desc" = "Earned during Chinese New Year event";
+"reward_dragon_essence" = "Dragon Essence";
+"reward_lantern_avatar" = "Lantern Avatar";
+"reward_spring_guardian" = "Spring Guardian";
+"reward_growth_charm" = "Growth Charm";
+"reward_halloween_master" = "Halloween Master";
+"reward_ghost_charm" = "Ghost Charm";
+"reward_christmas_angel" = "Christmas Angel";
+"reward_holiday_spirit" = "Holiday Spirit";
+
+"challenge_dragon_dance" = "Dragon Dance Master";
+"challenge_dragon_dance_desc" = "Perform the Dragon Dance ritual 5 times";
+"challenge_lantern_collection" = "Lantern Collector";
+"challenge_lantern_collection_desc" = "Complete 10 rituals during the event";
+"challenge_spring_growth" = "Spring Growth";
+"challenge_spring_growth_desc" = "Maintain a 3-day streak during Spring Equinox";
+"challenge_spooky_rituals" = "Spooky Rituals";
+"challenge_spooky_rituals_desc" = "Complete 15 rituals during Halloween";
+"challenge_twelve_days" = "Twelve Days of Rituals";
+"challenge_twelve_days_desc" = "Complete at least one ritual each day for 12 days";
+
+// Wood Styles
+"wood_styles" = "Wood Styles";
+"my_styles" = "My Styles";
+"all_styles" = "All Styles";
+"currently_selected" = "Currently Selected";
+"select_style" = "Select Style";
+"unlock" = "Unlock";
+"locked" = "Locked";
+"unlock_style_title" = "Unlock Wood Style";
+"unlock_style_confirm" = "Are you sure you want to unlock this wood style?";
+
+"wood_oak" = "Oak";
+"wood_oak_desc" = "Classic and sturdy oak wood, perfect for traditional rituals";
+"wood_pine" = "Pine";
+"wood_pine_desc" = "Light pine with a fresh scent, brings clarity and peace";
+"wood_maple" = "Maple";
+"wood_maple_desc" = "Smooth maple wood, symbolizing balance and harmony";
+"wood_cherry" = "Cherry";
+"wood_cherry_desc" = "Beautiful cherry wood with warm, protective energy";
+"wood_walnut" = "Walnut";
+"wood_walnut_desc" = "Rich walnut wood, enhances wisdom and prosperity";
+"wood_ebony" = "Ebony";
+"wood_ebony_desc" = "Rare ebony wood, provides powerful protection and strength";
+"wood_bamboo" = "Bamboo";
+"wood_bamboo_desc" = "Flexible bamboo, symbolizing resilience and growth";
+"wood_sandalwood" = "Sandalwood";
+"wood_sandalwood_desc" = "Sacred sandalwood, brings spiritual purification";
+"wood_rosewood" = "Rosewood";
+"wood_rosewood_desc" = "Elegant rosewood, attracts love and compassion";
+"wood_dragonwood" = "Dragonwood";
+"wood_dragonwood_desc" = "Mythical dragonwood, embodies ancient power and wisdom";
+
+"unlock_complete_5_rituals" = "Complete 5 rituals";
+"unlock_maintain_3_day_streak" = "Maintain a 3-day streak";
+"unlock_complete_25_rituals" = "Complete 25 rituals";
+"unlock_3_achievements" = "Unlock 3 achievements";
+"unlock_maintain_14_day_streak" = "Maintain a 14-day streak";
+"unlock_share_5_times" = "Share 5 times";
+"unlock_complete_seasonal_event" = "Complete a seasonal event";

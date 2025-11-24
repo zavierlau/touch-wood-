@@ -11,28 +11,28 @@ struct OnboardingFlow: View {
 
     private let pages = [
         OnboardingPage(
-            title: "Welcome to Touch Wood",
-            subtitle: "Your daily companion for good luck rituals",
+            title: NSLocalizedString("welcome_title", comment: "Welcome title"),
+            subtitle: NSLocalizedString("welcome_subtitle", comment: "Welcome subtitle"),
             imageName: "tree.fill",
-            description: "Start simple rituals, track your streaks, and bring a little luck to your day."
+            description: NSLocalizedString("welcome_description", comment: "Welcome description")
         ),
         OnboardingPage(
-            title: "Choose Your Ritual",
-            subtitle: "Select a ritual to begin with",
+            title: NSLocalizedString("choose_ritual_title", comment: "Choose ritual title"),
+            subtitle: NSLocalizedString("choose_ritual_subtitle", comment: "Choose ritual subtitle"),
             imageName: "hand.tap.fill",
-            description: "You can always add more rituals later."
+            description: NSLocalizedString("choose_ritual_description", comment: "Choose ritual description")
         ),
         OnboardingPage(
-            title: "Set Daily Reminder",
-            subtitle: "Never forget your ritual",
+            title: NSLocalizedString("set_reminder_title", comment: "Set reminder title"),
+            subtitle: NSLocalizedString("set_reminder_subtitle", comment: "Set reminder subtitle"),
             imageName: "bell.fill",
-            description: "We'll remind you at your preferred time."
+            description: NSLocalizedString("set_reminder_description", comment: "Set reminder description")
         ),
         OnboardingPage(
-            title: "Customize Experience",
-            subtitle: "Sound and haptic feedback",
+            title: NSLocalizedString("customize_title", comment: "Customize title"),
+            subtitle: NSLocalizedString("customize_subtitle", comment: "Customize subtitle"),
             imageName: "speaker.wave.3.fill",
-            description: "Make each ritual feel just right."
+            description: NSLocalizedString("customize_description", comment: "Customize description")
         )
     ]
 
@@ -175,7 +175,7 @@ struct OnboardingPageView: View {
             Spacer()
 
             Button(action: onNext) {
-                Text(isLastPage ? "Get Started" : "Continue")
+                Text(isLastPage ? NSLocalizedString("get_started", comment: "Get started button") : NSLocalizedString("continue", comment: "Continue button"))
                     .font(.headline)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
@@ -223,7 +223,7 @@ struct ReminderTimePicker: View {
 
     var body: some View {
         VStack {
-            Text("Choose your daily reminder time")
+            Text(NSLocalizedString("choose_daily_reminder_time", comment: "Choose reminder time"))
                 .font(.headline)
             DatePicker("", selection: $time, displayedComponents: .hourAndMinute)
                 .labelsHidden()
@@ -238,18 +238,31 @@ struct ExperienceSettings: View {
     @Binding var soundEnabled: Bool
     @Binding var hapticStyle: String
     private let hapticOptions = ["light", "medium", "heavy"]
+    
+    private func localizedHapticStyle(_ style: String) -> String {
+        switch style {
+        case "light":
+            return NSLocalizedString("light", comment: "Light haptic")
+        case "medium":
+            return NSLocalizedString("medium", comment: "Medium haptic")
+        case "heavy":
+            return NSLocalizedString("heavy", comment: "Heavy haptic")
+        default:
+            return style
+        }
+    }
 
     var body: some View {
         VStack(spacing: 20) {
-            Toggle("Sound Effects", isOn: $soundEnabled)
+            Toggle(NSLocalizedString("sound_effects", comment: "Sound effects toggle"), isOn: $soundEnabled)
                 .padding(.horizontal, 20)
 
             VStack(alignment: .leading, spacing: 8) {
-                Text("Haptic Feedback")
+                Text(NSLocalizedString("haptic_feedback", comment: "Haptic feedback"))
                     .font(.headline)
                 Picker("Haptic Style", selection: $hapticStyle) {
                     ForEach(hapticOptions, id: \.self) { style in
-                        Text(style.capitalized).tag(style)
+                        Text(localizedHapticStyle(style)).tag(style)
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())

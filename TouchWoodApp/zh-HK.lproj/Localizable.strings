@@ -1,0 +1,453 @@
+/* 
+  Localizable.strings (Traditional Chinese - Hong Kong)
+  TouchWoodApp
+
+  Created by zav on 24/11/2025.
+  
+*/
+
+"knock_on_wood" = "敲木";
+"cross_fingers" = "交叉手指";
+"salt_over_shoulder" = "撒鹽";
+
+"tap_wood_for_good_luck" = "敲木帶來好運";
+"cross_fingers_for_good_fortune" = "交叉手指祈求好運";
+"toss_salt_to_ward_off_bad_luck" = "撒鹽驅趕厄運";
+
+"welcome_title" = "歡迎來到敲木";
+"welcome_subtitle" = "您的日常幸運儀式伴侶";
+"welcome_description" = "開始簡單的儀式，追蹤您的連續記錄，為您的日子帶來一點幸運。";
+
+"choose_ritual_title" = "選擇您的儀式";
+"choose_ritual_subtitle" = "選擇一個儀式開始";
+"choose_ritual_description" = "您稍後可以隨時添加更多儀式。";
+
+"set_reminder_title" = "設置每日提醒";
+"set_reminder_subtitle" = "永遠不要忘記您的儀式";
+"set_reminder_description" = "我們會在您偏好的時間提醒您。";
+
+"customize_title" = "自定義體驗";
+"customize_subtitle" = "聲音和觸覺反饋";
+"customize_description" = "讓每次儀式都感覺恰到好處。";
+
+"continue" = "繼續";
+"get_started" = "開始使用";
+
+"sound_effects" = "音效";
+"haptic_feedback" = "觸覺反饋";
+"light" = "輕";
+"medium" = "中";
+"heavy" = "重";
+
+"choose_daily_reminder_time" = "選擇您的每日提醒時間";
+
+"time_for_ritual" = "儀式時間到了！";
+"tap_to_perform" = "點擊執行 %@ 並保持您的連續記錄。";
+
+"today_rituals" = "今日儀式";
+"streak_days" = "連續天數";
+"no_rituals_today" = "今天還沒有儀式";
+"complete_ritual" = "完成儀式";
+
+"note_placeholder" = "添加備註...";
+"how_feel" = "感覺如何？";
+"save" = "保存";
+"cancel" = "取消";
+
+"statistics" = "統計";
+"total_rituals" = "總儀式數";
+"current_streak" = "當前連續";
+"best_streak" = "最佳連續";
+"average_mood" = "平均心情";
+
+"settings" = "設定";
+"notifications" = "通知";
+"language" = "語言";
+"about" = "關於";
+
+"achievement_category_streak" = "連續成就";
+"achievement_category_rituals" = "儀式成就";
+"achievement_category_mood" = "心情成就";
+"achievement_category_social" = "社交成就";
+"achievement_category_special" = "特殊成就";
+
+"achievement_first_streak" = "第一步";
+"achievement_first_streak_desc" = "連續完成3天";
+"achievement_week_warrior" = "週勇士";
+"achievement_week_warrior_desc" = "保持7天連續";
+"achievement_month_master" = "月度大師";
+"achievement_month_master_desc" = "保持30天連續";
+"achievement_first_ritual" = "第一次儀式";
+"achievement_first_ritual_desc" = "完成你的第一個儀式";
+"achievement_ritual_collector" = "儀式收藏家";
+"achievement_ritual_collector_desc" = "完成50個儀式";
+"achievement_ritual_master" = "儀式大師";
+"achievement_ritual_master_desc" = "完成100個儀式";
+"achievement_positive_thinker" = "積極思考者";
+"achievement_positive_thinker_desc" = "保持4.0+平均心情";
+"achievement_perfect_week" = "完美一週";
+"achievement_perfect_week_desc" = "一週內每天完成儀式";
+"achievement_social_butterfly" = "社交蝴蝶";
+"achievement_social_butterfly_desc" = "分享5次成就";
+"achievement_early_bird" = "早起鳥";
+"achievement_early_bird_desc" = "早上6點完成儀式，連續7天";
+"achievement_creator" = "創造者";
+"achievement_creator_desc" = "創建3個自定義儀式";
+
+"achievement_requirement_streak_days" = "保持%d天連續";
+"achievement_requirement_total_rituals" = "完成%d個儀式";
+"achievement_requirement_perfect_week" = "一週內每天完成儀式";
+"achievement_requirement_mood_average" = "保持%.1f+平均心情";
+"achievement_requirement_share_count" = "分享%d次";
+"achievement_requirement_custom_rituals" = "創建%d個自定義儀式";
+"achievement_requirement_consecutive_days" = "連續%d天完成儀式";
+
+"reward_points" = "%d積分";
+"reward_badge" = "%s徽章";
+"reward_ritual" = "%s儀式";
+
+"app_name" = "敲木頭";
+"share_achievement_streak" = "🔥 %d天連續";
+"share_achievement_points" = "⭐ %d積分";
+"share_achievement_format" = "%s\n\n剛剛解鎖：%s\n%s\n%s\n%s";
+"share_streak_format" = "%s\n\n🔥 %d天連續！完成%d天儀式！";
+"share_ritual_format" = "%s\n\n完成%s %s%s";
+"share_challenge_format" = "%s\n\n完成挑戰：%s (%d/%d)";
+
+"share_rituals" = "儀式";
+"share_streaks" = "連續";
+"share_achievements" = "成就";
+"share_challenges" = "挑戰";
+
+"challenge_type_rituals" = "儀式";
+"challenge_type_streak" = "連續";
+"challenge_type_mood" = "心情";
+"challenge_type_variety" = "多樣性";
+"challenge_type_time" = "時間";
+
+"challenge_daily_3_title" = "每日奉獻";
+"challenge_daily_3_desc" = "今天完成3個儀式";
+"challenge_daily_5_title" = "儀式冠軍";
+"challenge_daily_5_desc" = "今天完成5個儀式";
+"challenge_streak_title" = "連續守護者";
+"challenge_streak_desc" = "保持你的每日連續";
+"challenge_mood_title" = "積極心態";
+"challenge_mood_desc" = "今天保持4+平均心情";
+"challenge_variety_title" = "多樣性大師";
+"challenge_variety_desc" = "完成2個不同的儀式";
+"challenge_morning_title" = "早起鳥";
+"challenge_morning_desc" = "完成早晨儀式（上午6點-12點）";
+"challenge_evening_title" = "夜貓子";
+"challenge_evening_desc" = "完成晚間儀式（下午6點-12點）";
+
+"challenge_complete_3" = "完成3個儀式";
+"challenge_rituals" = "完成儀式";
+"challenge_special_rituals" = "特殊儀式";
+"challenge_streak" = "保持連續";
+"challenge_social" = "社交活動";
+"challenge_collection" = "收藏";
+
+"leaderboard" = "排行榜";
+"global_ranking" = "全球排名";
+"friends_ranking" = "好友排名";
+"your_rank" = "你的排名";
+
+"builder_title" = "創建儀式";
+"builder_basic_info" = "基本資訊";
+"builder_ritual_name" = "儀式名稱";
+"builder_ritual_description" = "描述";
+"builder_category_difficulty" = "類別和難度";
+"builder_category" = "類別";
+"builder_difficulty" = "難度";
+"builder_appearance" = "外觀";
+"builder_icon" = "圖標";
+"builder_color" = "顏色";
+"builder_custom_image" = "自定義圖片";
+"builder_experience" = "體驗";
+"builder_duration" = "持續時間";
+"builder_haptic" = "觸感模式";
+"builder_sharing" = "分享";
+"builder_public" = "設為公開";
+"builder_public_desc" = "其他人可以下載和使用你的儀式";
+"builder_tags" = "標籤";
+"builder_tags_placeholder" = "輸入標籤，用逗號分隔";
+
+"category_luck" = "幸運";
+"category_gratitude" = "感恩";
+"category_protection" = "保護";
+"category_prosperity" = "繁榮";
+"category_health" = "健康";
+"category_love" = "愛情";
+"category_wisdom" = "智慧";
+"category_custom" = "自定義";
+
+"difficulty_easy" = "簡單";
+"difficulty_medium" = "中等";
+"difficulty_hard" = "困難";
+"difficulty_expert" = "專家";
+
+"haptic_light" = "輕";
+"haptic_medium" = "中";
+"haptic_heavy" = "重";
+"haptic_pulse" = "脈衝";
+"haptic_wave" = "波浪";
+"haptic_custom" = "自定義";
+
+"seconds" = "秒";
+
+"public_ritual_morning_sun" = "晨光";
+"public_ritual_morning_sun_desc" = "懷著感恩之心迎接晨光";
+"public_ritual_full_moon" = "滿月";
+"public_ritual_full_moon_desc" = "利用滿月的力量";
+"public_ritual_lucky_charm" = "幸運符";
+"public_ritual_lucky_charm_desc" = "創造你自己的幸運符";
+
+"create" = "創建";
+
+"mood_insights_title" = "心情洞察";
+"insights_overview" = "概覽";
+"insights_trends" = "趨勢";
+"insights_patterns" = "模式";
+"insights_recommendations" = "洞察";
+
+"average_mood" = "平均心情";
+"total_entries" = "總記錄";
+"entries_recorded" = "已記錄";
+"improvement_rate" = "改善率";
+"points_change" = "積分變化";
+"best_time" = "最佳時間";
+"most_productive" = "最高效";
+
+"weekly_trend" = "週趨勢";
+"monthly_trend" = "月趨勢";
+"ritual_performance" = "儀式表現";
+"time_analysis" = "時段分析";
+
+"insight_best_time_title" = "最佳時間";
+"insight_best_time_desc" = "你在%@時段心情最好";
+"insight_best_ritual_title" = "最有效儀式";
+"insight_best_ritual_desc" = "%s帶給你最大的快樂";
+"insight_positive_trend_title" = "積極趨勢";
+"insight_positive_trend_desc" = "你的心情最近在改善！";
+"insight_concern_title" = "心情關注";
+"insight_concern_desc" = "考慮專注於自我關懷";
+
+"time_morning" = "早晨";
+"time_afternoon" = "下午";
+"time_evening" = "晚上";
+"time_night" = "夜晚";
+
+"trend_improving" = "改善";
+"trend_declining" = "下降";
+"trend_stable" = "穩定";
+
+"priority_high" = "高";
+"priority_medium" = "中";
+"priority_low" = "低";
+
+"action" = "行動";
+
+"social_title" = "社交";
+"social_feed" = "動態";
+"friends" = "好友";
+"search" = "搜索";
+"profile" = "個人資料";
+
+"friend_requests" = "好友請求";
+"my_friends" = "我的好友";
+"accept" = "接受";
+"decline" = "拒絕";
+"add_friend" = "添加好友";
+
+"activity_friend_request" = "好友請求";
+"activity_friend_request_desc" = "發送給%@";
+"activity_new_friend" = "新好友";
+"activity_new_friend_desc" = "現在和%@是好友了";
+"activity_ritual_completed" = "完成儀式";
+"activity_ritual_desc" = "完成了%s";
+"activity_achievement" = "解鎖成就";
+"activity_achievement_desc" = "%s（%d積分）";
+"activity_streak_milestone" = "連續里程碑";
+"activity_streak_desc" = "%d天連續！";
+"activity_challenge_completed" = "完成挑戰";
+"activity_challenge_desc" = "%s - %s";
+"activity_custom_ritual" = "創建自定義儀式";
+"activity_custom_ritual_desc" = "%s（%s類別）";
+
+"search_users" = "搜索用戶...";
+"search_placeholder" = "搜索用戶...";
+"no_results" = "未找到結果";
+
+"edit_profile" = "編輯資料";
+"profile_info" = "個人資料";
+"display_name" = "顯示名稱";
+"bio" = "簡介";
+"recent_activity" = "最近活動";
+"completed_ritual" = "完成儀式";
+"unlocked_achievement" = "解鎖成就";
+"streak_milestone" = "連續里程碑";
+
+"total_points" = "總積分";
+
+"friendship_pending" = "待處理";
+"friendship_accepted" = "好友";
+"friendship_declined" = "已拒絕";
+"friendship_blocked" = "已屏蔽";
+
+"streak_positive" = "積極";
+"streak_neutral" = "中性";
+"streak_improving" = "改善中";
+
+"quick_actions" = "快速操作";
+"today_progress" = "今日進度";
+"recent_rituals" = "最近儀式";
+"daily_challenges" = "每日挑戰";
+"rituals" = "儀式";
+"streak" = "連續";
+"challenges" = "挑戰";
+"today" = "今天";
+"day_streak" = "天連續";
+"rituals_today" = "今日儀式";
+"next" = "下一個";
+"tap_to_complete" = "點擊完成";
+"add_note" = "添加備註（可選）";
+
+"widget_name" = "敲木頭";
+"widget_description" = "追蹤你的每日儀式和連續記錄";
+
+"seasonal_events" = "季節活動";
+"current_events" = "當前活動";
+"upcoming_events" = "即將到來";
+"past_events" = "過往活動";
+"overview" = "概覽";
+
+"event_type_holiday" = "節日";
+"event_type_seasonal" = "季節";
+"event_type_cultural" = "文化";
+"event_type_special" = "特殊";
+
+"event_chinese_new_year" = "中國新年";
+"event_chinese_new_year_desc" = "與特殊儀式和獎勵一起慶祝龍年！";
+"event_spring_equinox" = "春分";
+"event_spring_equinox_desc" = "用春季儀式慶祝新的開始和成長";
+"event_halloween" = "萬聖節神秘";
+"event_halloween_desc" = "探索神秘儀式，解鎖恐怖獎勵！";
+"event_christmas" = "聖誕魔法";
+"event_christmas_desc" = "用特殊儀式和獎勵體驗聖誕魔法！";
+
+"ritual_dragon_dance" = "舞龍";
+"ritual_dragon_dance_desc" = "表演傳統舞龍，帶來繁榮和好運";
+"ritual_red_envelope" = "紅包";
+"ritual_red_envelope_desc" = "用紅包儀式分享幸運和繁榮";
+"ritual_lantern_lighting" = "點燈籠";
+"ritual_lantern_lighting_desc" = "點亮燈籠，引導好運進入你的生活";
+"ritual_seed_planting" = "播種";
+"ritual_seed_planting_desc" = "播種意圖，為未來成長";
+"ritual_pumpkin_carving" = "雕刻南瓜";
+"ritual_pumpkin_carving_desc" = "雕刻南瓜以驅趕邪靈";
+"ritual_bell_ringing" = "敲鐘";
+"ritual_bell_ringing_desc" = "敲鐘傳播喜悅與和平";
+
+"rarity_common" = "普通";
+"rarity_uncommon" = "不普通";
+"rarity_rare" = "稀有";
+"rarity_epic" = "史詩";
+"rarity_legendary" = "傳奇";
+
+"effect_mood_boost" = "心情提升";
+"effect_streak_bonus" = "連續獎勵";
+"effect_double_points" = "雙倍積分";
+"effect_lucky_charm" = "幸運符";
+"effect_protection" = "保護";
+"effect_prosperity" = "繁榮";
+
+"effect_mood_boost_desc" = "6小時內提升心情30%";
+"effect_streak_bonus_desc" = "雙倍連續獎勵";
+"effect_lucky_charm_desc" = "12小時內增加幸運";
+"effect_protection_desc" = "24小時內強力保護";
+"effect_prosperity_desc" = "24小時內雙倍繁榮效果";
+"effect_joy_boost" = "雙倍喜悅和幸福";
+"effect_growth_mood" = "增強成長心情";
+
+"unlock_level" = "達到%d級";
+"unlock_streak" = "保持%d天連續";
+"unlock_achievement" = "解鎖%s";
+"unlock_event_progress" = "完成活動%d%%";
+"unlock_social_share" = "分享%d次";
+
+"unlocked" = "已解鎖";
+"usage_limit" = "使用：%d/%d";
+"ritual_effects" = "效果";
+"event_details" = "活動詳情";
+"event_type" = "類型";
+"event_duration" = "持續時間";
+"special_rituals" = "特殊儀式";
+"total_challenges" = "總挑戰數";
+"event_progress" = "活動進度";
+
+"claim" = "領取";
+"done" = "完成";
+
+"reward_dragon_master" = "龍之大師";
+"reward_dragon_master_desc" = "完成所有中國新年挑戰";
+"reward_prosperity_title" = "繁榮使者";
+"reward_prosperity_title_desc" = "在中國新年活動期間獲得";
+"reward_dragon_essence" = "龍之精華";
+"reward_lantern_avatar" = "燈籠頭像";
+"reward_spring_guardian" = "春天守護者";
+"reward_growth_charm" = "成長符";
+"reward_halloween_master" = "萬聖節大師";
+"reward_ghost_charm" = "幽靈符";
+"reward_christmas_angel" = "聖誕天使";
+"reward_holiday_spirit" = "節日精神";
+
+"challenge_dragon_dance" = "舞龍大師";
+"challenge_dragon_dance_desc" = "表演舞龍儀式5次";
+"challenge_lantern_collection" = "燈籠收藏家";
+"challenge_lantern_collection_desc" = "活動期間完成10個儀式";
+"challenge_spring_growth" = "春季成長";
+"challenge_spring_growth_desc" = "春分期間保持3天連續";
+"challenge_spooky_rituals" = "恐怖儀式";
+"challenge_spooky_rituals_desc" = "萬聖節期間完成15個儀式";
+"challenge_twelve_days" = "十二天儀式";
+"challenge_twelve_days_desc" = "十二天內每天至少完成一個儀式";
+
+// Wood Styles
+"wood_styles" = "木紋樣式";
+"my_styles" = "我的樣式";
+"all_styles" = "所有樣式";
+"currently_selected" = "當前選擇";
+"select_style" = "選擇樣式";
+"unlock" = "解鎖";
+"locked" = "已鎖定";
+"unlock_style_title" = "解鎖木紋樣式";
+"unlock_style_confirm" = "確定要解鎖這個木紋樣式嗎？";
+
+"wood_oak" = "橡木";
+"wood_oak_desc" = "經典堅固的橡木，適合傳統儀式";
+"wood_pine" = "松木";
+"wood_pine_desc" = "清新的松木，帶來清晰與平和";
+"wood_maple" = "楓木";
+"wood_maple_desc" = "光滑的楓木，象徵平衡與和諧";
+"wood_cherry" = "櫻桃木";
+"wood_cherry_desc" = "美麗的櫻桃木，帶有溫暖的保護能量";
+"wood_walnut" = "胡桃木";
+"wood_walnut_desc" = "豐富的胡桃木，增強智慧與繁榮";
+"wood_ebony" = "烏木";
+"wood_ebony_desc" = "稀有的烏木，提供強大的保護與力量";
+"wood_bamboo" = "竹子";
+"wood_bamboo_desc" = "靈活的竹子，象徵韌性與成長";
+"wood_sandalwood" = "檀香木";
+"wood_sandalwood_desc" = "神聖的檀香木，帶來精神淨化";
+"wood_rosewood" = "紅木";
+"wood_rosewood_desc" = "優雅的紅木，吸引愛與同情";
+"wood_dragonwood" = "龍木";
+"wood_dragonwood_desc" = "神話般的龍木，體現古老力量與智慧";
+
+"unlock_complete_5_rituals" = "完成5個儀式";
+"unlock_maintain_3_day_streak" = "保持3天連續";
+"unlock_complete_25_rituals" = "完成25個儀式";
+"unlock_3_achievements" = "解鎖3個成就";
+"unlock_maintain_14_day_streak" = "保持14天連續";
+"unlock_share_5_times" = "分享5次";
+"unlock_complete_seasonal_event" = "完成一個季節活動";
