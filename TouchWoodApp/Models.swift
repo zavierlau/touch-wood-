@@ -1,0 +1,185 @@
+import Foundation
+import SwiftUI
+
+// MARK: - Core Data entities are auto-generated from .xcdatamodeld
+
+// MARK: - SwiftUI Models
+
+struct RitualModel: Identifiable, Hashable {
+    let id: UUID
+    let name: String
+    let description: String
+    let icon: String
+    let isCustom: Bool
+    let isFavorite: Bool
+    let customImageData: Data?
+    let createdAt: Date
+    
+    // Computed properties
+    var hasCustomImage: Bool {
+        customImageData != nil
+    }
+    
+    static let touchWood = RitualModel(
+        id: UUID(),
+        name: "Knock on Wood",
+        description: "Tap wood for good luck",
+        icon: "tree.fill",
+        isCustom: false,
+        isFavorite: true,
+        customImageData: nil,
+        createdAt: Date()
+    )
+    
+    static let crossFingers = RitualModel(
+        id: UUID(),
+        name: "Cross Fingers",
+        description: "Cross fingers for good fortune",
+        icon: "hand.tap.fill",
+        isCustom: false,
+        isFavorite: false,
+        customImageData: nil,
+        createdAt: Date()
+    )
+    
+    static let saltOverShoulder = RitualModel(
+        id: UUID(),
+        name: "Salt Over Shoulder",
+        description: "Toss salt to ward off bad luck",
+        icon: "drop.fill",
+        isCustom: false,
+        isFavorite: false,
+        customImageData: nil,
+        createdAt: Date()
+    )
+}
+
+struct RitualLogModel: Identifiable {
+    let id: UUID
+    let ritualId: UUID
+    let timestamp: Date
+    let note: String?
+    let mood: Int? // 1-5 scale
+    
+    var moodEmoji: String {
+        guard let mood = mood else { return "😐" }
+        switch mood {
+        case 1: return "😢"
+        case 2: return "😕"
+        case 3: return "😐"
+        case 4: return "🙂"
+        case 5: return "😊"
+        default: return "😐"
+        }
+    }
+    
+    var formattedDate: String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        formatter.timeStyle = .short
+        return formatter.string(from: timestamp)
+    }
+}
+
+struct StreakModel: Identifiable {
+    let id: UUID
+    let ritualId: UUID
+    let currentCount: Int
+    let lastPerformedDate: Date
+    let bestCount: Int
+    
+    var daysSinceLastPerform: Int {
+        Calendar.current.dateComponents([.day], from: lastPerformedDate, to: Date()).day ?? 0
+    }
+    
+    var isActive: Bool {
+        daysSinceLastPerform <= 1 // Allow for same day or next day
+    }
+}
+
+// MARK: - User Preferences
+
+struct UserPreferences: Codable {
+    var soundEnabled: Bool
+    var hapticStyle: String // "light", "medium", "heavy"
+    var dailyReminderTime: Date
+    var shareAnonymously: Bool
+    var defaultRitualId: UUID?
+    
+    static let `default` = UserPreferences(
+        soundEnabled: true,
+        hapticStyle: "medium",
+        dailyReminderTime: Calendar.current.date(bySettingHour: 9, minute: 0, second: 0, of: Date()) ?? Date(),
+        shareAnonymously: false,
+        defaultRitualId: nil
+    )
+}
+
+// MARK: - App State
+
+class AppState: ObservableObject {
+    @Published var currentStreak: Int = 0
+    @Published var todayRitualCount: Int = 0
+    @Published var selectedRitual: RitualModel = .touchWood
+    @Published var userPreferences: UserPreferences = .default
+    @Published var hasCompletedOnboarding: Bool = false
+    
+    init() {
+        loadUserPreferences()
+        loadOnboardingStatus()
+    }
+    
+    private func loadUserPreferences() {
+        if let data = UserDefaults.standard.data(forKey: "userPreferences"),
+           let preferences = try? JSONDecoder().decode(UserPreferences.self, from: data) {
+            userPreferences = preferences
+        }
+    }
+    
+    func saveUserPreferences() {
+        if let data = try? JSONEncoder().encode(userPreferences) {
+            UserDefaults.standard.set(data, forKey: "userPreferences")
+        }
+    }
+    
+    private func loadOnboardingStatus() {
+        hasCompletedOnboarding = UserDefaults.standard.bool(forKey: "hasCompletedOnboarding")
+    }
+    
+    func completeOnboarding() {
+        hasCompletedOnboarding = true
+        UserDefaults.standard.set(true, forKey: "hasCompletedOnboarding")
+        saveUserPreferences()
+    }
+}
+
+// MARK: - Haptic Feedback Helper
+
+struct HapticFeedback {
+    static func trigger(_ style: String) {
+        let generator: UIImpactFeedbackGenerator
+        
+        switch style {
+        case "light":
+            generator = UIImpactFeedbackGenerator(style: .light)
+        case "medium":
+            generator = UIImpactFeedbackGenerator(style: .medium)
+        case "heavy":
+            generator = UIImpactFeedbackGenerator(style: .heavy)
+        default:
+            generator = UIImpactFeedbackGenerator(style: .medium)
+        }
+        
+        generator.impactOccurred()
+    }
+    
+    static func notification(_ type: UINotificationFeedbackGenerator.FeedbackType) {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(type)
+    }
+    
+    static func selection() {
+        let generator = UISelectionFeedbackGenerator()
+        generator.selectionChanged()
+    }
+}
