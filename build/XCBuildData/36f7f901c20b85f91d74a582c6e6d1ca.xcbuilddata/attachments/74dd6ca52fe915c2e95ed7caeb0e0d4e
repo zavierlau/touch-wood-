@@ -1,0 +1,169 @@
+{
+  "" : {
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-primary.dia",
+    "emit-module-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-primary-emit-module.dia",
+    "pch" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-primary.swiftdeps"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/CustomRitualSheet.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/CustomRitualSheet~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/Models.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Models~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/NotificationScheduler.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/NotificationScheduler~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/OnboardingFlow.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/OnboardingFlow~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/Persistence.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Persistence~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/StreakAnimation.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/StreakAnimation~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/TouchWoodApp.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp-d20679201eb89da0e534d22332c4e3a9~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/Views.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Views~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/TouchWoodApp/WoodStyles.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/WoodStyles~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/Ritual+CoreDataClass.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/Ritual+CoreDataProperties.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Ritual+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/RitualLog+CoreDataClass.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/RitualLog+CoreDataProperties.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/RitualLog+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/Streak+CoreDataClass.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/Streak+CoreDataProperties.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/Streak+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/DerivedSources/CoreDataGenerated/TouchWoodApp/TouchWoodApp+CoreDataModel.swift" : {
+    "const-values" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.swiftconstvalues",
+    "dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.d",
+    "diagnostics" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.dia",
+    "index-unit-output-path" : "/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.o",
+    "llvm-bc" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.bc",
+    "object" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.o",
+    "swift-dependencies" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel.swiftdeps",
+    "swiftmodule" : "/Users/zav/CascadeProjects/TouchWoodApp/build/TouchWoodApp.build/Debug-iphoneos/TouchWoodApp.build/Objects-normal/arm64/TouchWoodApp+CoreDataModel~partial.swiftmodule"
+  }
+}

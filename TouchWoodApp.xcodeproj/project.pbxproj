@@ -16,6 +16,7 @@
 		01000007 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000007 /* Persistence.swift */; };
 		01000008 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000008 /* Views.swift */; };
 		01000009 /* TouchWoodApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03000001 /* TouchWoodApp.xcdatamodeld */; };
+		01000010 /* WoodStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000009 /* WoodStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		02000006 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		02000007 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		02000008 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		02000009 /* WoodStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodStyles.swift; sourceTree = "<group>"; };
 		03000001 /* TouchWoodApp.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TouchWoodApp.xcdatamodeld; sourceTree = "<group>"; };
 		04000001 /* TouchWoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchWoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				02000006 /* Models.swift */,
 				02000007 /* Persistence.swift */,
 				02000008 /* Views.swift */,
+				02000009 /* WoodStyles.swift */,
 				03000001 /* TouchWoodApp.xcdatamodeld */,
 				05000001 /* Info.plist */,
 			);
@@ -153,6 +156,7 @@
 				01000007 /* Persistence.swift in Sources */,
 				01000008 /* Views.swift in Sources */,
 				01000009 /* TouchWoodApp.xcdatamodeld in Sources */,
+				01000010 /* WoodStyles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
